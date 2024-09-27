@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="scritps.js" defer></script>
+  <title>Tabuada</title>
+</head>
+<body>
+  <h1>Digite o número e confirme para gerar uma tabuada</h1>
+  <form id="tabuada-content">
+    <div class="inputs-wrapper">
+      <div class="tabuada">
+        <label for="number">Tabuada do:</label>
+        <input 
+          id="tabuada" 
+          name="number" 
+          type="number" 
+          placeholder="0">
+      </div>
+      <div class="multiplicador">
+        <label for="number">Multiplicar até:</label>
+        <input
+          id="multiplicador" 
+          name="multiplicador" 
+          type="number" 
+          placeholder="10">
+      </div>
+    </div>
+    <input id="calcular" type="submit" value="Calcular">
+  </form>
+  <h2 id="table-title">Tabuada do número:</h2>
+  <div class="multiplicador-operations">
+    <p>Informe um número para calcular uma tabuada</p>
+  </div>
+</body>
+</html>
